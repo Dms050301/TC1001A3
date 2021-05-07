@@ -1,0 +1,92 @@
+Last login: Fri May  7 14:45:17 on ttys001
+luiszepeda@MacBook-Air-de-Luis ~ % cd Desktop 
+luiszepeda@MacBook-Air-de-Luis Desktop % cd Semestre\ 4
+luiszepeda@MacBook-Air-de-Luis Semestre 4 % cd Semana\ Tec\ 2
+luiszepeda@MacBook-Air-de-Luis Semana Tec 2 % cd TC1001A3
+luiszepeda@MacBook-Air-de-Luis TC1001A3 % vim pacman.py
+luiszepeda@MacBook-Air-de-Luis TC1001A3 % git status
+En la rama luiszepeda3
+Cambios a ser confirmados:
+  (usa "git restore --staged <archivo>..." para sacar del área de stage)
+	nuevo archivo:  pacman.py
+
+luiszepeda@MacBook-Air-de-Luis TC1001A3 % python3 pacman.py
+luiszepeda@MacBook-Air-de-Luis TC1001A3 % vim pacman.py    
+luiszepeda@MacBook-Air-de-Luis TC1001A3 % python3 pacman.py
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/tkinter/__init__.py", line 1892, in __call__
+    return self.func(*args)
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/tkinter/__init__.py", line 814, in callit
+    func(*args)
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/TC1001A3/pacman.py", line 108, in move
+    clear()
+  File "<string>", line 5, in clear
+turtle.Terminator
+luiszepeda@MacBook-Air-de-Luis TC1001A3 % python3 pacman.py
+luiszepeda@MacBook-Air-de-Luis TC1001A3 % vim pacman.py    
+luiszepeda@MacBook-Air-de-Luis TC1001A3 % python3 pacman.py
+luiszepeda@MacBook-Air-de-Luis TC1001A3 % vim pacman.py    
+luiszepeda@MacBook-Air-de-Luis TC1001A3 % python3 pacman.py
+luiszepeda@MacBook-Air-de-Luis TC1001A3 % vim pacman.py    
+luiszepeda@MacBook-Air-de-Luis TC1001A3 % python3 pacman.py
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/tkinter/__init__.py", line 1892, in __call__
+    return self.func(*args)
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/tkinter/__init__.py", line 814, in callit
+    func(*args)
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/TC1001A3/pacman.py", line 108, in move
+    clear()
+  File "<string>", line 5, in clear
+turtle.Terminator
+luiszepeda@MacBook-Air-de-Luis TC1001A3 % git init 
+Reinicializado el repositorio Git existente en /Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/TC1001A3/.git/
+luiszepeda@MacBook-Air-de-Luis TC1001A3 % git commit -m pacman.py
+[luiszepeda3 d2dbbd3] pacman.py
+ 1 file changed, 171 insertions(+)
+ create mode 100644 pacman.py
+luiszepeda@MacBook-Air-de-Luis TC1001A3 % git push origin luiszepeda3
+Enumerando objetos: 4, listo.
+Contando objetos: 100% (4/4), listo.
+Compresión delta usando hasta 4 hilos
+Comprimiendo objetos: 100% (3/3), listo.
+Escribiendo objetos: 100% (3/3), 1.44 KiB | 1.44 MiB/s, listo.
+Total 3 (delta 0), reusado 0 (delta 0), pack-reusado 0
+To https://github.com/Dms050301/TC1001A3
+   a9ede2b..d2dbbd3  luiszepeda3 -> luiszepeda3
+luiszepeda@MacBook-Air-de-Luis TC1001A3 % git add pacman.py
+luiszepeda@MacBook-Air-de-Luis TC1001A3 % git commit -m pacman.py
+[luiszepeda3 1395c86] pacman.py
+ 1 file changed, 21 insertions(+), 21 deletions(-)
+luiszepeda@MacBook-Air-de-Luis TC1001A3 % git push origin luiszepeda3
+Enumerando objetos: 5, listo.
+Contando objetos: 100% (5/5), listo.
+Compresión delta usando hasta 4 hilos
+Comprimiendo objetos: 100% (3/3), listo.
+Escribiendo objetos: 100% (3/3), 459 bytes | 459.00 KiB/s, listo.
+Total 3 (delta 1), reusado 0 (delta 0), pack-reusado 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Dms050301/TC1001A3
+   d2dbbd3..1395c86  luiszepeda3 -> luiszepeda3
+luiszepeda@MacBook-Air-de-Luis TC1001A3 % python3 pacman.py
+luiszepeda@MacBook-Air-de-Luis TC1001A3 % vim pacman.py
+luiszepeda@MacBook-Air-de-Luis TC1001A3 % git log
+commit 1395c8648d8c3f7d8384e52b651716534b9af1a1 (HEAD -> luiszepeda3, origin/luiszepeda3)
+Author: luiszepeda1 <A01424057@itesm.mx>
+Date:   Fri May 7 16:12:55 2021 -0500
+
+    pacman.py
+
+commit d2dbbd3c9fb99c59116433d16bc5b8c409b14d3f
+Author: luiszepeda1 <A01424057@itesm.mx>
+Date:   Fri May 7 16:10:48 2021 -0500
+
+    pacman.py
+
+commit a9ede2b1fb32cbca2a8e41acdb69633b09006ee5 (origin/main, origin/HEAD)
+Author: Dms050301 <83719094+Dms050301@users.noreply.github.com>
+Date:   Fri May 7 11:38:59 2021 -0500
+
+    Initial commit
+luiszepeda@MacBook-Air-de-Luis TC1001A3 % 
